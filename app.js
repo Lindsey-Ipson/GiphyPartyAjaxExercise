@@ -5,7 +5,7 @@ const searchForm = document.querySelector('#searchForm');
 const deleteButton = document.querySelector('#deleteButton')
 
 async function getGifUrl (searchTerm) {
-    const res = await axios.get('http://api.giphy.com/v1/gifs/search', { params: {
+    const res = await axios.get('https://api.giphy.com/v1/gifs/search', { params: {
         q: searchTerm,
         api_key: 'MKBYPOrXy9sTTMAYLIXbO2Nx39iTsGvj',
         }
