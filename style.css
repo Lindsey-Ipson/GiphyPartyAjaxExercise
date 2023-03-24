@@ -1,0 +1,22 @@
+#displayGifs {
+    display: flexbox;
+}
+
+.gif {
+     display: inline-block;
+     margin: 5px;
+}
+
+img {
+   max-width: 300px;
+   max-height: 300px;
+}
+
+body {
+    background-color: rgb(60, 53, 53);
+    text-align: center;
+}
+
+h1 {
+    color: rgb(247, 241, 241);
+}
